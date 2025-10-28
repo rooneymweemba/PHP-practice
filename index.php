@@ -17,7 +17,30 @@
 <?php 
 $capitals = array("USA" => "washigton D.C",
                     "Japan" => "kyoto",
-                    "south korea" => "seoul");
+                    "south korea" => "seoul",
+                    "mexico" => "città del messico",
+                    "italy" => "rome",
+                    "germany" => "berlin",
+                    "france" => "paris",
+                    "spain" => "madrid",
+                    "canada" => "ottawa",
+                    "brazil" => "brasilia",
+                    "india" => "new delhi",
+                    "china" => "beijing",
+                    "russia" => "moscow",
+                    "australia" => "canberra",
+                    "egypt" => "cairo",
+                    "south africa" => "pretoria",
+                    "argentina" => "buenos aires",
+                    "sweden" => "stockholm",
+                    "norway" => "oslo",
+                    "finland" => "helsinki",
+                    "netherlands" => "amsterdam",
+                    "switzerland" => "bern",
+                    "turkey" => "ankara",
+                    "greece" => "athens",
+                    "portugal" => "lisbon",
+                    "ireland" => "dublin");
 $capital = $capitals[$_POST["country"]];
 echo "The capital of " . $_POST["country"] . " is " . $capital;
 ?>
