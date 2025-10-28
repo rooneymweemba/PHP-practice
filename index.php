@@ -8,7 +8,7 @@
 <body>
     <form action="index.php" method = "POST">
         <lable>Country</lable><br> 
-        <input type = text name = "country">
+        <input type = text name = "country"><br>
         <input type = submit value = "Find Capital">
     </form>
     
